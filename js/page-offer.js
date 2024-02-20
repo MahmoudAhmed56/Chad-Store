@@ -1,0 +1,1 @@
+let stocks=document.querySelectorAll(".stock");for(let e=0;e<stocks.length;e++){let t=stocks[e].dataset.stock,s=(stocks[e].querySelector(".qty-available").innerHTML,100*stocks[e].querySelector(".qty-solid").innerHTML/t);stocks[e].querySelector(".available").style.width=s+"%"}fsLightbox.props.type="image";

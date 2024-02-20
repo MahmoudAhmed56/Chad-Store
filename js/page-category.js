@@ -1,0 +1,1 @@
+const FtoShow=".filter",Fpopup=document.querySelector(FtoShow),Ftrigger=document.querySelector(".filter-trigger");Ftrigger.addEventListener("click",()=>{setTimeout(()=>{Fpopup.classList.contains("show")||Fpopup.classList.add("show")},250)}),document.addEventListener("click",t=>{!t.target.closest(FtoShow)&&Fpopup.classList.contains("show")&&Fpopup.classList.remove("show")});
